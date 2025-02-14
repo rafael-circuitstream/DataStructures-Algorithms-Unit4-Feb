@@ -16,8 +16,8 @@ public class GraphEdge : MonoBehaviour
         lineRenderer.SetPosition(0, nodeA.transform.position);
         lineRenderer.SetPosition(1, nodeB.transform.position);
 
-        nodeA.connectedNodes.Add(this);
-        nodeB.connectedNodes.Add(this);
+        //nodeA.connectedNodes.Add(this);
+        //nodeB.connectedNodes.Add(this);
 
     }
 
